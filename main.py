@@ -2,7 +2,7 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "7417197942:AAEvaIBl-wxwpuxKaplgYmXEykxbTA0J_bA"  # твій токен
 
 async def join_request_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.chat_join_request.from_user
